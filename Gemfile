@@ -80,6 +80,9 @@ else
 end
 
 group :development do
+  gem "capistrano", "~> 3.0"
+  gem "capistrano-bundler", require: false
+  gem "capistrano3-puma", require: false
   gem "rdoc", ">= 2.4.2"
   gem "yard"
 end
